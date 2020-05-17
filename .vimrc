@@ -1,15 +1,17 @@
-syntax on
-set laststatus=2
-set number
-set relativenumber
-set ruler
+" My first config file for VIM editor.
+" This config file place in home directory or make link.
+" Color schemas .vim files put in ~/.vim/colors
 
-" youtube v=zwAqbJH7gzk
-" Introdution to .vimrc file in vim
-set expandtab " expand tabs to space
+
+syntax on
+set laststatus=2    " Show bottom line info
+set number          " Show row numbers
+set relativenumber  " Show row numbers, but relative from current position
+set ruler           
+set expandtab       " Expand tabs to space
 set smarttab
-set shiftwidth=4
-set tabstop=2
+set shiftwidth=4    " How many spaces in TAB
+set tabstop=2       
 
 
 
@@ -17,12 +19,13 @@ set tabstop=2
 " let g:molokai_original = 1
 " let g:rehash256 = 1
 " let g:default_terminal = "xterm-256color"
-" 
+
+
+" Select scheme for your color monitor
 
 " colorscheme delek
-" colorscheme desert
+colorscheme desert
 " colorscheme industry
 " colorscheme slate
-" colorscheme :
-colorscheme jellybeans
+" colorscheme jellybeans
 
